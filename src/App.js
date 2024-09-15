@@ -14,7 +14,7 @@ const App = () => {
         {/* <Router> */}
           <Header/>
           <Routes >
-            <Route path="/Redux_Shopping_Cart" exact element={<ProductListing/>}/>
+            <Route path="/" exact element={<ProductListing/>}/>
             <Route path="/product/:productId" exact element={<ProductDetail/>} />
             <Route>404 not found !</Route>
             <Route path="/product/:productId/cart" element={<Cart/>} />
